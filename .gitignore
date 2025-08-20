@@ -1,0 +1,107 @@
+## Build results
+bin/
+obj/
+out/
+
+## VS (Visual Studio)
+.vs/
+.vscode/
+
+# Rider (JetBrains)
+.idea/
+*.sln.iml
+
+## Usuário (não versionar configs locais da IDE)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Logs e temporários
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+*.cachefile
+*.dbmdl
+*.bak
+*.tmp
+
+## Arquivos de publicação
+publish/
+PublishProfiles/
+
+## Testes
+TestResults/
+*.coverage
+*.coveragexml
+
+## Pacotes
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.vsix
+
+## Configurações locais (não versionar segredos!)
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Arquivos de configuração sensíveis
+appsettings.Production.json
+appsettings.Staging.json
+
+# Arquivos temporários e backup
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Cache de dependências
+.nuget/
+
+# Relatórios de teste
+*.trx
+*.testsettings
+*.vsmdi
+
+# Lock de pacotes
+packages.lock.json
+
+# Build do MSBuild
+*.msbuild
+
+# Configuração do IIS Express
+.vs/config/
+IISExpress/
+
+# Publish do Azure
+ServiceConfiguration.*
+ServiceDefinition.*
+
+# Histórico do Git
+*.orig
+
+# Ambiente
+.env
+.env.*
+
+## Sistema operacional
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Outros
+launchSettings.json
+*.http
